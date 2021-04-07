@@ -1,55 +1,52 @@
+
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/starter.css">
-    <title>Bootstrap npm starter</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>edwardascan</title>
+    <link href="scss/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="col-md-8 mx-auto">
-      <h1>Hello, world!</h1>
-      <p>You've successfully loaded up the Bootstrap npm starter project!</p>
-      <p>If this button looks blue and the text purple, you've done it.</p>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Click me!</button>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a id="logo" class="navbar-brand" href="#">Appname</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-nav justify-content-end" id="navbarSupportedContent">
+          <ul id="navlist" class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resume</a>
+            </li>
+           
+            
+          </ul>
+           
         </div>
       </div>
-
-      <hr class="my-5">
-
-      <h2>Adding Bootstrap Icons</h2>
-      <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-      <svg class="bi text-danger" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-      </svg>
-      <svg class="bi text-dark" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-      </svg>
-      <svg class="bi text-primary" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-      </svg>
+    </nav>
+    <div id="herocontainer" class="container-fluid">
+      <div class="main-text">
+        <div class="text-container">
+          <div class="main-name"><h1>Edward Ascan</h1></div>
+          <div class="name-title">Fullstack Software Developer</div>
+          <div class="projects-link">Projects</div>
+        </div>
+      </div>
     </div>
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script type="module" src="assets/js/starter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+
   </body>
 </html>

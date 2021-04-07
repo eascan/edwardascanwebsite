@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+#logo {
+  margin-left: 15%;
+}
+
+#navlist {
+  float: right;
+}
+
+#navbarSupportedContent {
+  margin-right: 15%;
+}
+
+#herocontainer {
+  height: 100vh;
+  background: #2e3047;
+  color: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
