@@ -109,3 +109,45 @@
 .linkedin-icon {
   margin-bottom: 1.2em;
 }
+
+.section-project-text {
+  text-align: center;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+    serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #b19386;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.works-title {
+  text-align: center;
+  margin-bottom: 70px;
+  color: #4a4a4a;
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+  line-height: 1.1253;
+  opacity: 1;
+  font-size: 1.999396em;
+  margin-top: 40px;
+}
+
+.project-item {
+  margin-bottom: 135px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: list-item;
+}
