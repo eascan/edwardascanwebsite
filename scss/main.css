@@ -19,6 +19,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #f3f3f3;
+}
+
 .sticky-top {
   background-color: #2e3047 !important;
   box-shadow: 0 2px 2px -2px #2e3047 !important;
@@ -56,8 +60,8 @@
 
 .main-projects {
   width: 100vw;
-  height: 500px;
-  background-color: white;
+  /* height: 500px; */
+  background-color: #f3f3f3;
 }
 
 .main-text {
@@ -150,4 +154,19 @@ ul {
 
 li {
   display: list-item;
+}
+
+.project-specific {
+  background-image: url("YalperMain.png");
+  display: block;
+  width: 70vw;
+  height: 480px;
+  /* background-color: #1c1d25; */
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
