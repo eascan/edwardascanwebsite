@@ -42,7 +42,7 @@ body {
 .sticky-top.scrolled {
   background-color: #242636 !important;
   transition: background-color 300ms linear;
-  box-shadow: 0 2px 2px -2px #2e3047 !important;
+  box-shadow: 10 20rem 20rem rgba(black, 0.175) !important;
 }
 
 .sticky-top.scrolled .nav-link {
@@ -51,11 +51,6 @@ body {
 
 .sticky-top.scrolled .navbar-brand {
   color: white;
-}
-
-.navbar-new {
-  background-color: #12131b !important;
-  box-shadow: -1px 9px 40px -12px #2e3047 !important;
 }
 
 .main-projects {
@@ -156,17 +151,214 @@ li {
   display: list-item;
 }
 
-.project-specific {
-  background-image: url("YalperMain.png");
+.project-specific1 {
+  background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+    url("../images/YalperMain.png");
   display: block;
-  width: 70vw;
-  height: 480px;
-  /* background-color: #1c1d25; */
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
   position: relative;
   box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
   margin-left: auto;
   margin-right: auto;
   background-position: 50%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.project-specific3 {
+  background: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)),
+    url("../images/jungle.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.project-specific4 {
+  background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+    url("../images/Mapple.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.project-specific5 {
+  background: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)),
+    url("../images/Tweeter.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.project-specific6 {
+  background: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)),
+    url("../images/tinyapp.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+.project-specific1:hover {
+  transform: scale(1.06);
+}
+
+.project-specific2:hover {
+  transform: scale(1.06);
+}
+
+.project-specific3:hover {
+  transform: scale(1.06);
+}
+
+.project-specific4:hover {
+  transform: scale(1.06);
+}
+
+.project-specific5:hover {
+  transform: scale(1.06);
+}
+
+.project-specific6:hover {
+  transform: scale(1.06);
+}
+
+/* PROJECTS */
+
+.project-text {
+  position: absolute;
+  left: 90px;
+  bottom: 90px;
+  color: #fff;
+  z-index: 10;
+  max-width: 550px;
+}
+
+.project-text-right {
+  display: block;
+  position: absolute;
+  right: 90px;
+  bottom: 90px;
+  color: #fff;
+  z-index: 10;
+  max-width: 550px;
+  text-align: right;
+}
+
+.project-text-title {
+  margin-bottom: 0.13265em;
+  font-size: 2.8271em;
+  line-height: 1.061;
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+}
+
+.project-text-description {
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+    serif;
+  font-weight: 100 !important;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  width: 25rem;
+  color: #f3f3f3;
+  margin-top: 20px;
+}
+
+.project-text-description-right {
+  display: block;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+    serif;
+  font-weight: 100 !important;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  width: 100%;
+  color: #f3f3f3;
+  margin-top: 20px;
+  text-align: right !important;
+}
+
+.project-button {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.875em;
+  letter-spacing: 3px;
+  padding: 12px 20px;
+  background-color: #985e6d;
+  background: linear-gradient(270deg, #985e6d, #8b4457);
+  color: #fff;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  margin-top: 10px;
+  box-shadow: 0 10px 40px 0 rgb(0 0 0 / 50%);
+}
+
+.project-specific2 {
+  background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+    url("../images/interviewscheduler.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
 }
