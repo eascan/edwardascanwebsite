@@ -19,6 +19,47 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.sticky-top {
+  background-color: #2e3047 !important;
+  box-shadow: 0 2px 2px -2px #2e3047 !important;
+  height: 10vh;
+
+  /* position: relative; */
+}
+
+.sticky-top .navbar-brand {
+  color: #b0b2c3;
+}
+
+.sticky-top .nav-link {
+  color: #b0b2c3 !important;
+}
+
+.sticky-top.scrolled {
+  background-color: #242636 !important;
+  transition: background-color 300ms linear;
+  box-shadow: 0 2px 2px -2px #2e3047 !important;
+}
+
+.sticky-top.scrolled .nav-link {
+  color: white !important;
+}
+
+.sticky-top.scrolled .navbar-brand {
+  color: white;
+}
+
+.navbar-new {
+  background-color: #12131b !important;
+  box-shadow: -1px 9px 40px -12px #2e3047 !important;
+}
+
+.main-projects {
+  width: 100vw;
+  height: 500px;
+  background-color: white;
+}
+
 .main-text {
   display: flex;
   align-items: center;
@@ -35,6 +76,7 @@
   font-family: "Spartan", sans-serif;
   margin-bottom: 6px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .name-title {
@@ -44,6 +86,7 @@
   padding-top: 10px;
   margin-bottom: 20px;
   font-style: italic;
+  font-size: 1.17em;
 }
 
 .projects-link {
@@ -59,4 +102,10 @@
   display: flex;
   justify-content: end;
   flex-direction: column;
+  color: #cccdda;
+  margin-right: 1em;
+}
+
+.linkedin-icon {
+  margin-bottom: 1.2em;
 }
