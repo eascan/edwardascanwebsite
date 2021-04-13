@@ -64,6 +64,12 @@
   transform: scale(1.06);
 }
 
+#contact-hero {
+  color: #f3f3f3;
+  font-size: large;
+  font-weight: bold;
+}
+
 .navbar-brand:hover {
   transform: scale(1.06);
   color: #f3f3f3 !important;
