@@ -6,6 +6,7 @@
 
 #navlist {
   float: right;
+  margin-right: 0px !important;
 }
 
 #navbarSupportedContent {
@@ -19,8 +20,71 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#projects-section {
+  height: 40px;
+}
+
+#back-to-top {
+  display: none;
+  color: #b19386;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  z-index: 99;
+  transition: 1s;
+}
+
+#back-to-top:hover {
+  transform: scale(1.06);
+  color: #b4795f;
+}
+
+#hero-btn:hover {
+  transform: scale(1.06);
+  transition: 1s;
+  background: #944257 !important;
+  color: #f3f3f3;
+}
+
+#nav-logo-EA {
+  height: 12%;
+  width: 12%;
+}
+
+#footer-logo {
+  height: 50%;
+  width: 50%;
+}
+
+#footer-linkedin:hover {
+  transform: scale(1.06);
+}
+
+#footer-github:hover {
+  transform: scale(1.06);
+}
+
+.navbar-brand:hover {
+  transform: scale(1.06);
+  color: #f3f3f3 !important;
+  transition: 0.5s;
+}
+
+.nav-item:hover {
+  transform: scale(1.06);
+  transition: 0.5s;
+}
+
+.sticky-top .nav-link:hover {
+  color: #f3f3f3 !important;
+}
+
 body {
   background-color: #f3f3f3;
+}
+
+.nav-link {
+  transition: 1s;
 }
 
 .sticky-top {
@@ -29,6 +93,19 @@ body {
   height: 10vh;
 
   /* position: relative; */
+}
+
+.about-me {
+  position: relative;
+  margin-left: 5px;
+  z-index: 100;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+    serif;
+
+  font-weight: lighter;
+  width: 40vw;
+  color: #e4e2e2;
+  margin-bottom: 3%;
 }
 
 .sticky-top .navbar-brand {
@@ -63,22 +140,43 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
+  margin-left: 20vw;
 }
 
 .text-container {
   flex-grow: 2;
-  padding-left: 20vw;
+  padding-left: 10vw;
+}
+
+.hero-logo {
+  position: absolute;
+  top: 43%;
+  left: 17%;
+  opacity: 1;
+  z-index: 0;
+  height: 250px !important;
+  width: 170px !important;
+}
+
+#logo-img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .main-name {
+  position: relative;
   font-size: 3.9975843648em;
   font-family: "Spartan", sans-serif;
   margin-bottom: 6px;
   font-weight: bold;
   color: #ffffff;
+  z-index: 100;
+  opacity: 100;
 }
 
 .name-title {
+  position: relative;
   font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
     serif;
   padding-left: 4px;
@@ -86,12 +184,15 @@ body {
   margin-bottom: 20px;
   font-style: italic;
   font-size: 1.17em;
+  z-index: 100 !important;
+  opacity: 100;
 }
 
 .projects-link {
   font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
     serif;
   padding-left: 4px;
+  z-index: 100;
 }
 
 .contact-icons {
@@ -348,7 +449,8 @@ li {
   text-decoration: none;
   border: 0;
   margin-top: 10px;
-  box-shadow: 0 10px 40px 0 rgb(0 0 0 / 50%);
+  box-shadow: 0 10px 40px 0 rgb(0 0 0 / 30%);
+  z-index: 100;
 }
 
 .project-specific2 {
@@ -386,7 +488,7 @@ li {
 }
 
 .footer-content {
-  width: 1170px;
+  width: 100vw;
   margin: 0px auto;
   padding-top: 100px;
 }
@@ -400,15 +502,17 @@ li {
 }
 
 .top-label {
-  /* position: absolute; */
-  top: 30px;
+  position: relative;
+  bottom: 28px;
   right: 0;
   font-size: 0.875em;
   font-family: "Spartan", sans-serif;
   color: #f3f3f3;
+
   transform: translateX(40px);
   transition: all 0.3s ease;
   visibility: hidden;
+  text-decoration: none;
 }
 
 .footer-logo:hover .top-label {
@@ -469,4 +573,149 @@ li {
     serif;
   background-color: transparent;
   text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  #logo {
+    margin-left: 5% !important;
+    transition: 3s;
+  }
+
+  #linkedin-svg {
+    transition: 1s;
+    width: 27px;
+  }
+
+  #github-svg {
+    transition: 1s;
+    width: 27px;
+  }
+
+  .contact-icons {
+    margin-right: 0;
+  }
+
+  .project-specific1 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific2 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific3 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific4 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific5 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific6 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-text {
+    position: static;
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  .project-text-right {
+    position: static;
+    left: 90px;
+    bottom: 91px;
+    color: #fff;
+    z-index: 10;
+    max-width: 550px;
+    text-align: left;
+
+    padding-top: 19%;
+    padding-left: 10%;
+  }
+
+  .project-text-title {
+    font-size: 2em;
+  }
+
+  .project-text-description {
+    font-size: 0.8em;
+    width: 18rem;
+  }
+
+  .project-text-description-right {
+    font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+      serif;
+    font-weight: 100 !important;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    width: 18rem;
+    color: #f3f3f3;
+    margin-top: 20px;
+    text-align: left !important;
+  }
+
+  .stack {
+    font-size: 15px;
+  }
+
+  .about-me {
+    margin-bottom: 10%;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+  .project-specific1 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific2 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific3 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific4 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific5 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
+
+  .project-specific6 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
 }
