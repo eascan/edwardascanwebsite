@@ -733,6 +733,42 @@ li {
 }
 
 @media screen and (max-width: 375px) {
+  .project-specific1 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific2 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific3 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific4 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific5 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific6 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
   #logo-img {
     visibility: hidden;
   }
@@ -762,9 +798,35 @@ li {
   .footer-logo {
     text-align: center;
   }
+
+  .stack {
+    width: 300px !important;
+  }
+
+  .project-text {
+    left: 15px;
+    width: 340px;
+    bottom: 70px;
+  }
+
+  .project-text-right {
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: 70px;
+
+    color: #fff;
+    z-index: 10;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .project-text-description {
+    width: fit-content;
+  }
 }
 
-@media screen and (min-width: 375px) and (max-width: 414px) {
+@media screen and (min-width: 376px) and (max-width: 414px) {
   #herocontainer {
     width: 100vw;
     display: flex;
