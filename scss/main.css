@@ -15,6 +15,7 @@
 
 #herocontainer {
   height: 100vh;
+  width: 100vw;
   background: #2e3047;
   color: #f3f3f3;
   font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +45,11 @@
   transition: 1s;
   background: #944257 !important;
   color: #f3f3f3;
+}
+
+#hero-btn {
+  position: relative;
+  z-index: 100;
 }
 
 #nav-logo-EA {
@@ -581,7 +587,7 @@ li {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 415px) and (max-width: 700px) {
   #logo {
     margin-left: 5% !important;
     transition: 3s;
@@ -723,5 +729,137 @@ li {
     height: 450px;
     width: 85vw;
     transition: 3s;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #logo-img {
+    visibility: hidden;
+  }
+
+  #herocontainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-text {
+    margin: 0;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-links > li {
+    margin: 0;
+  }
+
+  .footer-copy {
+    padding-right: 0;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  #herocontainer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  #logo-img {
+    visibility: hidden;
+  }
+
+  .main-text {
+    margin-left: 0;
+  }
+
+  .project-specific1 {
+    width: 90vw;
+  }
+
+  .project-specific2 {
+    width: 90vw;
+  }
+
+  .project-specific3 {
+    width: 90vw;
+  }
+
+  .project-specific4 {
+    width: 90vw;
+  }
+
+  .project-specific5 {
+    width: 90vw;
+  }
+
+  .project-specific6 {
+    width: 90vw;
+  }
+
+  .project-text {
+    left: 30px;
+    width: 350px;
+  }
+
+  .project-text-right {
+    right: 30px;
+    width: 350px;
+  }
+
+  .project-text-description {
+    width: 300px;
+    position: relative;
+  }
+  .project-text-description-right {
+    /* width: 300px;
+    display: block;
+
+    text-align: right !important;
+    padding-left: 80px; */
+    display: block;
+
+    font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman,
+      serif;
+    font-weight: 100 !important;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    width: 18rem;
+    color: #f3f3f3;
+    margin-top: 20px;
+    text-align: left !important;
+  }
+  .project-text-right {
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 90px;
+    color: #fff;
+    z-index: 10;
+    max-width: 550px;
+    text-align: left;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-links > li {
+    margin: 0;
+  }
+
+  .footer-copy {
+    padding-right: 0;
+  }
+
+  .footer-logo {
+    text-align: center;
   }
 }
