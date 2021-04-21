@@ -366,6 +366,25 @@ li {
   transition: 0.7s;
 }
 
+.project-specific7 {
+  background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+    url("../images/LinkedInClone.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
 .project-specific1:hover {
   transform: scale(1.06);
 }
@@ -387,6 +406,10 @@ li {
 }
 
 .project-specific6:hover {
+  transform: scale(1.06);
+}
+
+.project-specific7:hover {
   transform: scale(1.06);
 }
 
@@ -643,6 +666,12 @@ li {
     transition: 3s;
   }
 
+  .project-specific7 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
   .project-text {
     position: static;
     padding-top: 10%;
@@ -730,6 +759,12 @@ li {
     width: 85vw;
     transition: 3s;
   }
+
+  .project-specific7 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -767,6 +802,20 @@ li {
     height: 450px;
     width: 95vw;
     transition: 3s;
+  }
+
+  .project-specific7 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific7 > .project-text-right {
+    bottom: 40px;
+  }
+
+  .project-specific7 > .project-text-right > h3 {
+    font-size: 30px !important;
   }
 
   #logo-img {
@@ -818,11 +867,16 @@ li {
     color: #fff;
     z-index: 10;
     max-width: 550px;
-    text-align: left;
+    text-align: left !important;
   }
 
   .project-text-description {
     width: fit-content;
+  }
+
+  .project-text-description-right {
+    width: fit-content;
+    text-align: left !important;
   }
 }
 
@@ -861,6 +915,10 @@ li {
   }
 
   .project-specific6 {
+    width: 90vw;
+  }
+
+  .project-specific7 {
     width: 90vw;
   }
 
