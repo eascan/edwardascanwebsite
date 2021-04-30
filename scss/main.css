@@ -290,6 +290,25 @@ li {
   transition: 0.7s;
 }
 
+.project-specific8 {
+  background: linear-gradient(rgba(61, 61, 61, 0.5), rgba(61, 61, 61, 0.5)),
+    url("../images/Hoolu.png");
+  display: block;
+  width: 60vw;
+  height: 550px;
+  background-color: #1c1d25;
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: 0.7s;
+}
+
 .project-specific3 {
   background: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)),
     url("../images/jungle.png");
@@ -410,6 +429,9 @@ li {
 }
 
 .project-specific7:hover {
+  transform: scale(1.06);
+}
+.project-specific8:hover {
   transform: scale(1.06);
 }
 
