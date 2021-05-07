@@ -694,6 +694,12 @@ li {
     transition: 3s;
   }
 
+  .project-specific8 {
+    height: 350px;
+    width: 85vw;
+    transition: 3s;
+  }
+
   .project-text {
     position: static;
     padding-top: 10%;
@@ -787,6 +793,12 @@ li {
     width: 85vw;
     transition: 3s;
   }
+
+  .project-specific8 {
+    height: 450px;
+    width: 85vw;
+    transition: 3s;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -827,6 +839,12 @@ li {
   }
 
   .project-specific7 {
+    height: 450px;
+    width: 95vw;
+    transition: 3s;
+  }
+
+  .project-specific8 {
     height: 450px;
     width: 95vw;
     transition: 3s;
@@ -941,6 +959,10 @@ li {
   }
 
   .project-specific7 {
+    width: 90vw;
+  }
+
+  .project-specific8 {
     width: 90vw;
   }
 
